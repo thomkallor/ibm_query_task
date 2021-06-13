@@ -6,6 +6,10 @@ The services are tested in MongoDB and MySql.
 
 The data model is not normalized and replicated in MongoDB.
 
+The data model is on the assumption that the inventory are completely unrelated, 
+
+(i.e) the sale is not based on items in the inventory rather the available items (cars).
+
 ## You can find the mongodb queries in nosql_mongodb folder.
 
 The `inventory` collection is a list of cars with `quantity`.
